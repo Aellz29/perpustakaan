@@ -1,6 +1,6 @@
 <?php
-$id = 
-$_GET['id'];
+// fungsi untuk hapus data
+$id = $_GET['id'];
 $query = mysqli_query($koneksi, "DELETE FROM peminjaman WHERE peminjamanID='$id'");
 
 if ($query) {

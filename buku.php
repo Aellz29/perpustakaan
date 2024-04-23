@@ -81,6 +81,7 @@ if (isset($_POST['un_favorite'])) {
                                     
                                     <tbody>
                                     <?php
+                                    // fungsi untuk menampilkan data pada tabel buku
                                     $i = 1;
                                     $query = mysqli_query($koneksi, "SELECT buku.*, kategoribuku.* FROM buku LEFT JOIN kategoribuku_relasi ON buku.bukuID = kategoribuku_relasi.bukuID 
                                     LEFT JOIN kategoribuku ON kategoribuku_relasi.kategoriID = kategoribuku.kategoriID");

@@ -30,6 +30,7 @@
                                     
                                     <tbody>
                                     <?php
+                                    // fungsi untuk menampilkan data pada tabel user
                                     $i = 1;
                                     $query = mysqli_query($koneksi, "SELECT*FROM user");
                                     while ($data = mysqli_fetch_array($query)) {

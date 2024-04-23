@@ -1,6 +1,6 @@
 <?php
-$id = 
-$_GET['id'];
+// fungsi untuk hapus data
+$id = $_GET['id'];
 $query = mysqli_query($koneksi, "DELETE FROM ulasanbuku WHERE ulasanID='$id'");
 
 if ($query) {

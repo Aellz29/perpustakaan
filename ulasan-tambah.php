@@ -1,4 +1,5 @@
 <?php
+// fungsi untuk tambah data
 if (isset($_POST['bsimpan'])) {
     $userID = $_SESSION['user']['userID'];
     $bukuID = $_POST['bukuID'];

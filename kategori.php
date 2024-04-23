@@ -38,6 +38,7 @@
                                     
                                     <tbody>
                                     <?php
+                                    // fungsi untuk menampilkan data
                                     $i = 1;
                                     $query = mysqli_query($koneksi, "SELECT*FROM kategoribuku");
                                     while ($data = mysqli_fetch_array($query)) {

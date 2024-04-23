@@ -16,6 +16,7 @@ include "koneksi.php";
     </tr>
 
     <?php
+    // fungsi untuk menampilkan data
     $i =1;
     $query = mysqli_query($koneksi, "SELECT*FROM peminjaman LEFT JOIN user ON user.userID=peminjaman.userID LEFT JOIN buku ON buku.bukuID=peminjaman.bukuID");
     while ($data = mysqli_fetch_array($query)) {

@@ -1,4 +1,5 @@
 <?php
+// fungsi untuk ubah data
 $id = $_GET['id'];
 $query = mysqli_query($koneksi, "SELECT*FROM ulasanbuku WHERE ulasanID = $id"); 
 $data = mysqli_fetch_array($query);

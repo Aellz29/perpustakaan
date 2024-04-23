@@ -1,4 +1,5 @@
 <?php
+// fungsi untuk tambah data
 if (isset($_POST['bsimpan'])) {
     $username = $_POST['username'];
     $password = md5($_POST['password']);

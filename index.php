@@ -262,6 +262,7 @@ if (!isset($_SESSION['user'])) {
                 
                 <!-- /.container-fluid -->
                 <?php
+                // untuk menghubungkan page ke home/index
                 $page = isset($_GET['page']) ? $_GET['page'] : 'home';
                 if (file_exists($page . '.php')) {
                     include $page . '.php';

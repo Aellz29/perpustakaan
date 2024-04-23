@@ -1,5 +1,6 @@
 
 <?php
+// fungsi untuk ubah data
 $id = $_GET['id'];
 if (isset($_POST['bubah'])) {
     $namaKategori = $_POST['namaKategori'];
@@ -23,7 +24,7 @@ if (isset($_POST['bubah'])) {
 		<div class="col-12">
 		<div class="card" style="margin-bottom: 1rem; margin-left:14rem; width:50rem;">
 				<div class="card-body">
-                    <h4 class="card-title">Tambah Data</h4>             
+                    <h4 class="card-title">Ubah Data</h4>             
                     <a href="?page=kategori" class="btn btn-primary" style="margin-bottom:1rem; margin-top:1rem;">Kembali</a>
                     
                     <?php

@@ -1,4 +1,6 @@
 <?php
+
+// fungsi untuk ubah data
 $id = $_GET['id'];
 
 if (isset($_POST['bubah'])) {

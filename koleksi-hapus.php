@@ -1,4 +1,5 @@
 <?php
+// fungsi untuk hapus data
 $id = $_GET['id'];
 $query = mysqli_query($koneksi, "DELETE FROM koleksipribadi WHERE koleksiID='$id'");
 

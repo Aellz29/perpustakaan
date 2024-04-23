@@ -1,6 +1,6 @@
 <?php
-$id = 
-$_GET['id'];
+// fungsi untuk hapus data
+$id = $_GET['id'];
 $query = mysqli_query($koneksi, "DELETE FROM user WHERE userID='$id'");
 
 if ($query) {

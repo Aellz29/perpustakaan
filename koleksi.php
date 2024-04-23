@@ -32,6 +32,7 @@
                                     
                                     <tbody>
                                     <?php
+                                    // fungsi untuk menampilkan data
                                     $i = 1;
                                     $query = mysqli_query($koneksi, "SELECT*FROM koleksipribadi LEFT JOIN user ON user.userID = koleksipribadi.userID LEFT JOIN buku ON buku.bukuID=koleksipribadi.bukuID $where");
                                     while ($data = mysqli_fetch_array($query)) {
