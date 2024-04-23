@@ -37,7 +37,7 @@ $data = mysqli_fetch_array($query);
 		<div class="col-12">
 		<div class="card" style="margin-bottom: 1rem; margin-left:14rem; width:50rem;">
 				<div class="card-body">
-                    <h4 class="card-title">Tambah Data</h4>             
+                    <h4 class="card-title">Ubah Data</h4>             
                     <a href="?page=user" class="btn btn-primary" style="margin-bottom:1rem; margin-top:1rem;">Kembali</a>
                     
                     
