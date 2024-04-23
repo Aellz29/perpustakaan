@@ -41,6 +41,8 @@ include 'koneksi.php';
                             </div>
 
                             <?php
+
+                            // Fungsi untuk register
                             if (isset($_POST['bsimpan'])) {
                                 $namaLengkap = $_POST['namaLengkap'];
                                 $username = $_POST['username'];
